@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=7 format=2]
+
+[ext_resource path="res://RPG.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Button9FrameHover.tres" type="StyleBox" id=2]
+[ext_resource path="res://Panel9Frame.tres" type="StyleBox" id=3]
+[ext_resource path="res://Button9Frame.tres" type="StyleBox" id=4]
+[ext_resource path="res://Button9FramePressed.tres" type="StyleBox" id=5]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[resource]
+default_font = ExtResource( 1 )
+Button/colors/font_color = Color( 1, 1, 1, 1 )
+Button/colors/font_color_disabled = Color( 1, 1, 1, 0.2 )
+Button/colors/font_color_focus = Color( 1, 1, 1, 1 )
+Button/colors/font_color_hover = Color( 1, 1, 1, 1 )
+Button/colors/font_color_pressed = Color( 0, 0, 0, 1 )
+Button/styles/disabled = ExtResource( 4 )
+Button/styles/focus = SubResource( 1 )
+Button/styles/hover = ExtResource( 2 )
+Button/styles/normal = ExtResource( 4 )
+Button/styles/pressed = ExtResource( 5 )
+Panel/styles/panel = ExtResource( 3 )
